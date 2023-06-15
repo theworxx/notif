@@ -1,0 +1,150 @@
+"Notification Category (the why) 
+[the user's JTBD/challenge] ","Notification template
+[The BSci intervention/solution]",Trigger,Minimum Condition,Parameters
+Daily Goal met- cheers! (positive reinforcement) ,help me celebrate small wins!1,reached activity goal,weekly goal not yet met,"# min completed OR 
+daily goal amount 
+weekly goal
+# min activity this week"
+Daily Goal met- cheers! (positive reinforcement) ,help me celebrate small wins!2,reached activity goal ,progress to weekly goal >= 50%,"# min completed OR 
+daily goal amount 
+weekly goal
+# min activity this week
+percent weekly goal complete"
+Daily Goal met- cheers! (positive reinforcement) ,help me celebrate small wins!3,reached activity goal ,time = before 12 pm ,"# min completed OR 
+daily goal amount 
+weekly goal
+# min activity this week"
+Encourage user to open app,did you record all your manual activity,time insensitive,"end of week approaching (N-2) 
+goal not met",
+Encourage user to open app,fresh start,time insensitive,last week goal not met,weekly goal & daily goal
+Encourage user to open app,make it fun,time insensitive,last week goal not met,"disease (optional) 
+weekly goal"
+Encourage user to open app,make it social,time insensitive,same weekly goal kept,
+Encourage user to open app,reference last weeks success as a motivator1,time insensitive,last week goal met & same weekly goal kept,
+Encourage user to open app,reference last weeks success as a motivator2,time insensitive,last week goal met & weekly goal increased,
+Encourage user to open app,see how your progress is moving you towards your overall goal,weekly goal met 3x in a row,,
+Encourage user to open app,"see how your progress is moving you towards your reason for being on the app (I.e. lose weight, increasing PA)",weekly goal met ,goal met this week (early)? goal chosen during onboarding= lose weightt OR increase PA,
+Encourage user to open app,share the good news!,time insensitive,last week goal met,
+Help me build my motivation ,dont let failures get to me,time insensitive ,"goal NOT met yesterday, but met at least once in last 3 days; time = before 11 am",daily goal 
+Help me build my motivation ,help me become more aware of immediate benefits,break in calendar,daily goal not met ,location + calendar
+Help me build my motivation ,help me feel I am progressing//yesterdays successs1,activity = yesterday's activity + 5 ,,todays PA activity - yesterdays
+Help me build my motivation ,help me feel I am progressing/new daily record hit,new record reached,need to set limits so it is not sent too often,# minutes of activity curent
+Help me build my motivation ,help me feel I am progressing/previous successes1,time insensitive,goal met past 3+ days; goal not yet met today,
+Help me build my motivation ,help me feel I am progressing/previous successes2,time insensitive ,"goal met >5  days in a row, goal NOT yet met today",# days of consistently meeting goal
+Help me build my motivation ,help me feel I am progressing/today,reached 60% of daily goal,daily goal >=15,"daily goal
+# min active
+# min left
+%active"
+Help me build my motivation ,help me feel I am progressing/yesterday's successes2,time insensitive,goal met yesterday; goal not yet met today; time == before 4 pm; weekly goal not met ,
+Help me build my motivation ,Help me make exercise more fun/enjoyable (make it enjoyable)1,open block on calendar (or time insensitive) ,"weather = cold 
+daily goal not met ",location 
+Help me build my motivation ,Help me make exercise more fun/enjoyable (make it enjoyable)2,open block on calendar (or time insensitive) ,"weather = hot 
+daily goal not met ",location 
+Help me build my motivation ,Help me make exercise more fun/enjoyable (make it enjoyable)3,time insensitive,>=50% of daily goal remaining & Daily goal >=15; time ==before  8 pm,daily goal
+Help me build my motivation ,help me understand/remember how important it is medically,time insensitive,"# min left to goal >=5  
+time = before 8 pm ",disease; # min to goal
+Help me build my motivation ,help me understand/remember how important it is medically/diease specific,time insensitive,,disease=prediabetes/diabetes
+Help me build my motivation ,help me understand/remember how important it is medically/diease specific1,time insensitive,"# min left to goal >=5  
+
+daily goal >=15
+",disease=prediabetes/diabetes; # min to goal
+Help me build my motivation ,help me understand/remember how important it is medically/diease specific2,time insensitive,"# min left to goal >=5  
+
+disease = pre-diabetes or diabetes
+",disease=prediabetes/diabetes; # min to goal
+Help me build my motivation ,make me more aware of immediate benefits,time insensitive,,
+Help me build my motivation ,"use the ""finish line"" to motivate me1",5 minutes of activity left,"in the midst of activity
+daily goal >= 20",# min left
+Help me build my motivation ,"use the ""finish line"" to motivate me2",time insensitive,"not currently walking
+daily goal >=20
+<=5 minutes activity left",
+Help me build my motivation ,"use the ""finish line"" to motivate me3",time insensitive ,"in the midst of activity
+daily goal >= 20",# min left
+Help me exercise even when my original plans are not possible,plan B,time insensitive ,goal not met (at least 5 minutes left) ,
+Help me feel accountable to someone ,accountability,time insensitive ,past 5 pm & less than 5 min activity completed,
+Help me find a buddy to exercise with,find a walking group,time insensitive ,,
+Help me find a buddy to exercise with,In person/start the week off right,time insensitive ,"forecast for tommorrow != rain
+day = Saturday (or Friday in Israel). Time = post 2 pm",day of the week
+Help me find a buddy to exercise with,Virtual walk-n-talk,time insensitive ,not raining ,
+Help me find a buddy to exercise with,walk with a work colleague,time insensitive ,"user = age 30-60 (?) 
+morning, start of work week (sunday in IL, otherwise monday) ",
+Help me find a partner to work towards my health goals with,enlist a health goals buddy,time insensitive ,,
+Help me learn how to exercise,Give me ideas for exercising inside because its cold outside1,time insensitive ,"todays weather forcast = cold
+daily goal not met",
+Help me learn how to exercise,Give me ideas for exercising inside because its cold outside2,time insensitive ,"todays weather forcast = cold
+daily goal not met
+time before 6 pm  ","time of day (morning, mid-day, afternoon) "
+Help me learn how to exercise,Give me ideas for exercising inside because its cold outside3,user woke up 30 minutes ago,"todays weather forcast = cold
+daily goal not met",name
+Help me learn how to exercise,Give me ideas for exercising inside because its hot outside1,time insensitive ,"todays weather forcast = hot
+# min left to goal < X -5",# min left to goal
+Help me learn how to exercise,Give me ideas for exercising inside because its hot outside2,time insensitive ,"todays weather forcast = hot
+daily goal not met",
+Help me learn how to exercise,Give me ideas for exercising inside because its raining outside,time insensitive ,todays weather forcast = rain,
+Help me learn how to exercise,Give me ideas for making exercise fun,time insensitive,,
+Help me make time to exercise in my schedule,build a workout into tomorrow's schedule1,time insensitive ,"open time on calendar
+time after 7:30 pm ","calendar slot
+"
+Help me make time to exercise in my schedule,build a workout into tomorrow's schedule2,time insensitive ,"open time on calendar
+time after 7:30 pm 
+forecast tomorrow = rain","calendar slot
+weather"
+Help me make time to exercise in my schedule,build a workout into tomorrow's schedule3,time insensitive ,"open time on calendar
+time after 7:30 pm 
+forecast tomorrow = sunny","calendar slot
+weather"
+Help me make time to exercise in my schedule,build a workout into tomorrow's schedule4,time insensitive ,sunday/first day of the week,
+Help me make time to exercise in my schedule (NOW),"offer the user to workout at home now, cease the moment ",returned home,"was out of house >4 hours? 
+time = after 3 pm",
+Help me see a social norm around exercising/meeting the daily goal,you're not alone,time insensitive ,,
+Help me see my goals as achievable,remind user their goal is personalzied to them,time insensitive,User has not completed weekly goals && at least 2 days left,
+Help me see my goals as important,Link goal to better health,time insensitive ,"user on app >5 days but <21 days
+
+day of the week is Thursday, Friday or Saturday",disease 
+Help me see my goals as important,Link goal to intrinsic motivation  (long life),time insensitive ,"At least 5 minutes remaining to daily goal
+
+intrinsic motivation = long life
+
+time = before 8 pm ",# minutes left to daily goal 
+Help me see my goals as important,Link goal to intrinsic motivation (dr told me),time insensitive ,"User has not completed weekly goal
+
+intrinsic motivation = dr told me
+
+time = before 8 pm ",
+Help me see my goals as important,Link goal to intrinsic motivation (family),time insensitive ,"User has not completed daily goal
+
+intrinsic motivation = family
+
+time = before 8 pm ", # minutes left to weekly goal
+Help me see my goals as important,Link goal to intrinsic motivation (feel good),time insensitive ,"User has not completed weekly goal
+
+intrinsic motivation = feel good
+
+time = before 8 pm ",
+Help me see my goals as important,Link goal to intrinsic motivation (look good),time insensitive ,"User has not completed weekly goal
+
+intrinsic motivation = look good
+
+time = before 8 pm ",
+Help me see my goals as important,Link goal to success,9:00 AM,user set new goal yesterday,
+Help me see my goals as important,Link PA goal to overall goal,time insensitive ,"
+User has not completed daily goal
+
+high level goal chosen = lose weight or Increase PA 
+","# minutes left to daily goal
+daily goal"
+Help me see my goals as important,Link PA goal to overall goal2,30 minutes after user woke up ,"goal chosen = increase PA
+
+seniority <= 2 weeks
+
+user has not completed daily goal","overal PA goal
+daily PA goal"
+Help me see my goals as important,Remind me I made a commitment to a goal,time insensitive ,"At least 5 minutes remaining to daily goal
+Day of the week is at least Tuesday
+","weekly goal (XX) 
+minutes left to daily goal (Y) or 20, whichever is smaller"
+Help me take the first steps,encourage me with a suggestion for starting small1,time insensitive,"
+user daily goal <20 & user activity today <5 min
+time = before 11 am ",
+Help me take the first steps,encourage me with a suggestion for starting small2,time insensitive,user weekly goal is <=55 && weekly goal last week not met && daily goal yesterday not met && time== before 5 pm,
+Help me take the first steps,Give me ideas in general,time insensitive ,,disease
