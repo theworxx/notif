@@ -1,0 +1,31 @@
+Notification Category,Notification Template,Trigger,Minimum Condition,Parameters,CTA,Measurement,Notification Header,Notification Body,Chars
+Restaurant,Smart Choices,N/A,N/A,N/A,"Choose fresh, whole foods",N/A,"Hi [name], dining out?",Make smart choices off the menu. Focus on fresh foods and avoid fried ones. Your body will thank you.,130
+Restaurant,Mindful Eating,N/A,N/A,N/A,Save leftovers for later,N/A,"Hi [name], remember!",Don't feel pressured to finish a dish if you're full. Pack it up and save it for later.,107
+Restaurant,Veggie Options,N/A,N/A,N/A,Choose vegetable dishes,N/A,"Hi [name], go green!",Veggies are the way to go! Save on calories by swapping out carbs for a fresh vegetable dish.,123
+Restaurant,Salad Caution,N/A,N/A,N/A,Choose healthy salad toppings,N/A,"Hi [name], salad alert!","Be cautious with salads. They can be healthy, but look out for dressings, cheeses, & fried toppings that are high in calories.",147
+Restaurant,Healthy Seasoning,N/A,N/A,N/A,Use lemon and vinegar for flavor,N/A,"Hi [name], season smart!",Salt may enhance your food but it’s not the healthiest option. Trade it in for fresh lemon and vinegar for flavor.,143
+Restaurant,Fiber-Friendly,N/A,N/A,N/A,Choose fiber-friendly foods,N/A,"Hi [name], fiber first!",Avoid spikes in your blood sugar by having fiber-friendly foods at the beginning of the meal.,120
+Restaurant,Portion Control,N/A,N/A,N/A,Place shared dishes on a plate,N/A,"Hi [name], portion control!","When sharing dishes, always place your food on a plate. It’ll help you be mindful of your portions.",124
+Restaurant,Customizable Order,N/A,N/A,N/A,Ask for modifications,N/A,"Hi [name], customize it!","Don’t be shy, you can always ask to modify your dish when eating out. Put dressings on the side, or say no to butter & oil.",141
+Restaurant,Protein Options,N/A,N/A,N/A,Choose lean protein options,N/A,"Hi [name], protein power!","Look out for lean sources of protein off a menu such as boneless chicken, turkey, or fatty fish like salmon.",130
+Restaurant,Plant-Based,N/A,N/A,N/A,Fill up on plant-based foods,N/A,"Hi [name], go plant-based!","Fill up on veggies. Keep an eye out for plant-based foods. They aren’t just trendy, they can be super healthy too.",136
+Supermarket,Food Labels,N/A,N/A,N/A,Read food labels carefully to choose healthy options,N/A,"Hi [name], label alert!","Food labels can be tricky. Keep an eye out for products low in sugar, saturated fat & salts.",124
+Supermarket,Pantry Stocking,N/A,N/A,N/A,Stock your pantry with these healthy items to make meal prep easier,N/A,"Hi [name], pantry prep!","Keeping your pantry stocked with healthy items is easier than you think! Grains, beans & nuts will set you up for healthy meals.",144
+Supermarket,Meal Planning,N/A,N/A,N/A,Plan your meals ahead of time to avoid unhealthy food choices,N/A,"Hi [name], meal planning!",Meal planning is everything! Try to plan dinners ahead to avoid last-minute fast foods.,112
+Supermarket,Reading Facts,N/A,N/A,N/A,Check the ingredients in your food to make sure they're healthy,N/A,"Hi [name], read the facts!",Read the facts on your food! As a rule of thumb - the fewer the ingredients the better.,112
+Supermarket,Store Layout,N/A,N/A,N/A,Look for healthy food options around the perimeter of the store,N/A,"Hi [name], store layout tip!",Did you ever notice that healthier food options are found around the perimeter of shops? Stick to the healthy area.,137
+Supermarket,Fruit Cravings,N/A,N/A,N/A,Add nuts to your fruit to balance your blood sugar,N/A,"Hi [name], fruit cravings?",Avoid the usual blood sugar spike by adding a handful of nuts to your meal.,101
+Supermarket,Lean Protein,N/A,N/A,N/A,Choose lean meat and fish for protein and omega-3s,N/A,"Hi [name], lean protein!",Lean meat or fish are actually low in carbs & can be the source of your protein and omega-3’s.,115
+Supermarket,Whole Grains,N/A,N/A,N/A,Choose whole grains for complex carbs,N/A,"Hi [name], whole grains!","Whole grains are the real deal. Stock up on quinoa, brown rice and oats to add complex carbs to any meal.",127
+Supermarket,Weekly Menu,N/A,N/A,N/A,Plan your meals ahead of time to reduce stress and eat healthily,N/A,"Hi [name], weekly menu!",Map out your weekly menu. Plan your meals ahead of time to avoid stress while following a healthy diet.,133
+Supermarket,Colorful Meals,N/A,N/A,N/A,Choose colorful fruits and vegetables for a balanced diet,N/A,"Hi [name], taste the rainbow!",Plan your meals accordingly. Choose colorful fruits and veggies to balance your nutrients.,122
+Gym,Progress Update,N/A,N/A,N/A,Manual Activity,N/A,"Hi [name], progress update!",How’s your activity today? Keep us updated on your progress.,79
+Gym,Reporting,N/A,N/A,N/A,Manual Activity,N/A,"Hi [name], keep us in the loop!",Don’t forget to report on all your daily activity so your goals stay up-to-date.,108
+Gym,Activity Goals,N/A,N/A,N/A,Manual Activity,N/A,"Hi [name], let's reach your goals!",Remember to report on any activity that we don’t track so we update your goal.,104
+Gym,Tracking,N/A,N/A,N/A,Manual Activity,N/A,"Hi [name], tracking is key!","Keep your activity log up to date, and we’ll celebrate your success.",91
+Gym,Reporting,N/A,N/A,N/A,Manual Activity,N/A,"Hi [name], don't forget!",Don’t forget to report on all your daily activity. It’ll help us keep your goals in check.,104
+Gym,Hydration,N/A,N/A,N/A,Keep water bottle nearby,N/A,"Hi [name], hydration tip!",Physical activity can quickly dehydrate the body. Here’s a tip - keep a water bottle nearby and you won’t have to worry!,140
+Gym,Stretching,N/A,N/A,N/A,Add stretches to your routine,N/A,"Hi [name], stretch it out!","Add some stretches into your day, it’s good for both your physical and mental health.",108
+Gym,Routine,N/A,N/A,N/A,Celebratory,N/A,"Hi [name], keep it up!",We’re glad you are making activity a part of your regular routine. Keep up the good work!,101
+Gym,Success,N/A,N/A,N/A,Celebratory,N/A,"Hi [name], you're doing great!",We’re proud of your hard work with us so far. Reward yourself tonight!,89
+Gym,Habits,N/A,N/A,N/A,Continue building habits,N/A,"Hi [name], great job!","Building habits takes time, and we’re here to support you along this journey.",96
