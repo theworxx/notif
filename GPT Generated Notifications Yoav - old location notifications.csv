@@ -1,0 +1,366 @@
+Group,Trigger name,Sample text,Push time,Calendar,GPS,Scale,Outdoor,Indoor,Home/Work,Weather,Comment,Priority,internal priority,Notification text Comments
+Daily notifications group (Client side),Your goal today is X morning,,morning,+/-,+/-,,,,,,daily until daily goal is achieved 5 times,11,5,
+Daily notifications group (Client side),Your goal today is X morning,"Random versions:
+1)Good Morning [first_name], you have [[X]] min of activity left towards your daily goal. Good luck - see you later!",morning,-,-,,-,-,-,,daily until daily goal is achieved 5 times,11,40,
+Daily notifications group (Client side),Your goal today is X + Calendar morning,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. Use it towards your health!",morning,+,-,,-,-,-,,daily until daily goal is achieved 5 times,11,39,
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning,,morning,+,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,1,"parameters [location_type], [location_name], [location_address], [slot_start_time], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], to pick up coffee from [location_Name] at [location_address]",morning,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,16,Key: Location_Type_Cafe_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Clear,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. The sun is shining so go for a walk to pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,1,Key: Location_Type_Cafe_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Clouds,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so go to pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,2,Key: Location_Type_Cafe_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Drizzle,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,3,Key: Location_Type_Cafe_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Rain,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,4,Key: Location_Type_Cafe_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Snow,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's cold outside so dress warm and pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,5,Key: Location_Type_Cafe_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Atmosphere,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Let's go for a refreshing walk to pick up coffee from [location_Name] at [location_address] 
+",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,6,Key: Location_Type_Cafe_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Café + Additional,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Shall we go for a walk to pick up coffee from [location_Name] at [location_address]?",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,7,Location_Type_Cafe_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so let's go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,8,Key: Location_Type_Park_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Clear,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. The sun is shining so go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,9,Key: Location_Type_Park_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Clouds,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time] so why don't you go for a walk at [location_Name] at [location_address]?",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,10,Key: Location_Type_Park_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Drizzle,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,11,Key: Location_Type_Park_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Rain,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,12,Key: Location_Type_Park_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Snow,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Let's get up and go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,13,Key: Location_Type_Park_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Atmosphere,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Shall we go for a walk at [location_Name] at [location_address]?",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,14,Key: Location_Type_Park_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS morning - Park + Additional,"Random versions:
+1)Good morning [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside, so why don't you go for a walk at [location_Name] at [location_address]",morning,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,15,Location_Type_Park_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning,,morning,-,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,2,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café ,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do. Why don't you grab a coffee from [location_Name] at [location_address]?",morning,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,32,Key: Location_Type_Cafe
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Clear,"Random versions:
+1)The sun is shining [first_name]! It's perfect timing to pick up coffee from [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,17,Key: Location_Type_Cafe_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Clouds,"Random versions:
+1)It's nice outside [first_name], go to pick up coffee from [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,18,Key: Location_Type_Cafe_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Drizzle,"Random versions:
+1)Good morning [first_name], take an umbrella and pick up coffee from [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,19,Key: Location_Type_Cafe_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Rain,"Random versions:
+1)Good morning [first_name], take an umbrella and pick up coffee from [location_Name] at [location_address] to achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,20,Key: Location_Type_Cafe_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Snow,"Random versions:
+1)Good morning [first_name], it's cold outside so dress warm and pick up coffee from [location_Name] at [location_address] to achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,21,Key: Location_Type_Cafe_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Atmosphere,"Random versions:
+1)Good morning [first_name], go for a refreshing walk to pick up coffee from [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,22,Key: Location_Type_Cafe_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Café + Additional,"Random versions:
+1)Good morning [first_name], It's refreshing outside, so why don't you pick up coffee from [location_Name] at [location_address] and achieve your [[X]] min of activity?",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,23,Location_Type_Cafe_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do. Why don't you go for a walk at [location_Name] at [location_address]?",morning,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,24,Key: Location_Type_Park
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Clear,"Random versions:
+1)Good morning [first_name], the sun is shining and it's perfect timing to go for a walk at [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,25,Key: Location_Type_Park_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Clouds,"Random versions:
+1)Good morning [first_name], why don't you go for a walk at [location_Name] at [location_address] and achieve your [[X]] min of activity?",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,26,Key: Location_Type_Park_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Drizzle,"Random versions:
+1)Good morning [first_name], grab an umbrella and go for a walk at [location_Name] at [location_address] to achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,27,Key: Location_Type_Park_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Rain,"Random versions:
+1)Good morning [first_name], it might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address] to achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,28,Key: Location_Type_Park_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park+ Snow,"Random versions:
+1)Good morning [first_name], dress warm and go for a walk at [location_Name] at [location_address] to achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,29,Key: Location_Type_Park_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Atmosphere,"Random versions:
+1)Good morning [first_name], achieve your [[X]] min of activity by going for a walk at [location_Name] at [location_address]",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,30,Key: Location_Type_Park_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS morning - Park + Additional,"Random versions:
+1)Good morning [first_name], It's refreshing outside, so why don't you go for a walk at [location_Name] at [location_address] and achieve your [[X]] min of activity",morning,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,31,Location_Type_Park_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS indoor morning,,morning,+,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,3,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS home indoor morning,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do and you've got free time in your schedule at [slot_start_time]. The weather is unsuitable for outdoor activity, but you can perform it indoors as well!",morning,+,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,33,Key: Location_Type_Home_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor morning,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do and you've got free time in your schedule at [slot_start_time]. Take a colleague and go for a walk around your workplace and reach your goal!",morning,+,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,34,Key: Location_Type_Work_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS home indoor outdoor morning + shopping mall,"Random versions:
+1)The weather is challenging this morning [first_name], but you've got free time at [slot_start_time]. You can drive to [location_Name] at [location_address] and complete your [[X]] min of activity",weekend - morning,+,+,,-,-,Home,+,daily until daily goal is achieved 5 times,11,35,"Key: Location_Type_Home_Indoor_Outdoor_locations_Calendar
+
+Shopping Mall/department_store - not more than 15 min drive from home"
+Daily notifications group (Client side),Your goal today is X minutes + GPS indoor morning,,morning,-,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,4,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS home indoor morning,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do. The weather is unsuitable for outdoor activity, but you can perform it indoors in order to reach your goal!",morning,-,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,36,Key: Location_Type_Home_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor morning,"Random versions: 
+1)Good morning [first_name], you have [[X]] min of activity left to do. Take a colleague and go for a walk around your workplace and reach your goal!",morning,-,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,37,Key: Location_Type_Work_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS home indoor outdoor morning + shopping mall,"Random versions:
+1)Good morning [first_name], if the weather is unsuitable for outdoor activity, you can drive to [location_Name] at [location_address] and complete your [[X]] min of activity",weekend - morning,-,+,,-,-,Home,+,daily until daily goal is achieved 5 times,11,38,"Key: Location_Type_Home_Indoor_Outdoor_locations
+
+Shopping Mall/department_store - not more than 15 min drive from home"
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal noon reference,,noon,+/-,-,,,,,,daily until daily goal is achieved 5 times,11,5,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal noon reference,"Random versions:
+1)[first_name], [[X]] min remain towards your daily goal. Go for a walk, and take a friend along! ",noon,-,-,,-,-,-,,daily until daily goal is achieved 5 times,11,38,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar noon reference,"Random versions: 
+1)Hi again [first_name], [[X]] min of activity remain toward your daily goal, and you've got free time in your schedule at [slot_start_time] for a short walk after your meal",noon,+,-,,-,-,-,,daily until daily goal is achieved 5 times,11,37,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar + GPS noon reference,,noon,+,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,1,"parameters [location_type], [location_name], [location_address], [slot_start_time], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], to pick up coffee from [location_Name] at [location_address]. You'll feel more vivid and achieve your daily goal",noon,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,16,Key: Location_Type_Cafe_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Clear,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. The sun is shining so go for a walk to pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,1,Key: Location_Type_Cafe_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Clouds,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for a walk to you pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,2,Key: Location_Type_Cafe_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Drizzle,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be drizzling outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,3,Key: Location_Type_Cafe_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Rain,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,4,Key: Location_Type_Cafe_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Snow,"Random versions:
+1)Hi [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's cold outside so dress warm and pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,5,Key: Location_Type_Cafe_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café + Atmosphere,"Random versions:
+1)Hi [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Let's go for a refreshing walk to pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,6,Key: Location_Type_Cafe_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Café Additional,"Random versions:
+1)Hi [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for a walk to pick up coffee from [location_Name] at [location_address] 
+",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,7,Location_Type_Cafe_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so let's go for a walk at [location_Name] at [location_address]. You'll feel more vivid and achieve your daily goal",noon,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,8,Key: Location_Type_Park_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Clear,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. The sun is shining so go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,9,Key: Location_Type_Park_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Clouds,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,10,Key: Location_Type_Park_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Drizzle,"Random versions:
+1)Hi [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Take an umbrella and go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,11,Key: Location_Type_Park_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Rain,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,12,Key: Location_Type_Park_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Snow,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's cold outside so dress warm and go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,13,Key: Location_Type_Park_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Atmosphere,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Let's go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,14,Key: Location_Type_Park_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS noon - Park + Additional,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside, so why don't you go for a walk at [location_Name] at [location_address]",noon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,15,Location_Type_Park_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon,,noon,-,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,2,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café ,"Random versions: 
+1)Hello [first_name], you have [[X]] min of activity left. Go for a walk to pick up coffee from [location_Name] at [location_address] ",noon,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,32,Key: Location_Type_Cafe
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Clear,"Random versions:
+1)Hi [first_name], the sun is shining and it's perfect timing to pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,17,Key: Location_Type_Cafe_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Clouds,"Random versions:
+1)Hello [first_name], let's pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,18,Key: Location_Type_Cafe_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Drizzle,"Random versions:
+1)Hello [first_name], take an umbrella and pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity ",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,19,Key: Location_Type_Cafe_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Rain,"Random versions:
+1)Hello [first_name], it might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,20,Key: Location_Type_Cafe_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Snow,"Random versions:
+1)Hi [first_name], dress warm and pick up coffee from [location_Name] at [location_address] to complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,21,Key: Location_Type_Cafe_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Atmosphere,"Random versions:
+1)Hello [first_name], go for a walk to pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,22,Key: Location_Type_Cafe_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Café + Additional,"Random versions:
+1)Hello [first_name], It's refreshing outside, so why don't you pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity?",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,23,Location_Type_Cafe_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park,"Random versions: 
+1)Hello [first_name], you have [[X]] min of activity left. Why don't you go for a walk at [location_Name] at [location_address]?",noon,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,24,Key: Location_Type_Park
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Clear,"Random versions:
+1)Hello [first_name], the sun is shining and it's perfect timing to go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity
+",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,25,Key: Location_Type_Park_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Clouds,"Random versions:
+1)Hello [first_name], go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,26,Key: Location_Type_Park_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Drizzle,"Random versions:
+1)Hello [first_name], take an umbrella and go for a walk at [location_Name] at [location_address] to complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,27,Key: Location_Type_Park_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Rain,"Random versions:
+1)Hello [first_name], take an umbrella and go for a walk at [location_Name] at [location_address] to complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,28,Key: Location_Type_Park_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Snow,"Random versions:
+1)Hi [first_name], dress warm and go for a walk at [location_Name] at [location_address] to complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,29,Key: Location_Type_Park_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Atmosphere,"Random versions:
+1)Hello [first_name], go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,30,Key: Location_Type_Park_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS noon - Park + Additional,"Random versions:
+1)Hello again [first_name], It's refreshing outside, so go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",noon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,31,Location_Type_Park_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS indoor noon,,noon,+,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,3,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS home indoor noon,"Random versions: 
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. The weather is unsuitable for outdoor activity so you can perform it indoors instead",noon,+,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,33,Key: Location_Type_Home_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor noon,"Random versions: 
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. Take a colleague, go for a walk around your workplace and reach your goal!",noon,+,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,34,Key: Location_Type_Work_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + GPS indoor noon,,noon,-,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,4,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS home indoor noon,"Random versions: 
+1)Hello [first_name], you have [[X]] min of activity left. You can perform your activity indoors as well in order to reach your goal!",noon,-,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,35,Key: Location_Type_Home_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor noon,"Random versions: 
+1)Hi [first_name], you have [[X]] min of activity left. If the weather is unsuitable for outdoor activity, take a colleague and go for a walk around your workplace",noon,-,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,36,Key: Location_Type_Work_Indoor
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal afternoon reference,,afternoon,+/-,-,,,,,,daily until daily goal is achieved 5 times,11,5,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal afternoon reference,"Random versions:
+1)[first_name], [[X]] min remain towards your daily goal. Go for a walk, and take a friend along! ",afternoon,-,-,,-,-,-,,daily until daily goal is achieved 5 times,11,40,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar afternoon reference,"Random versions: 
+1)[first_name], [[X]] min remain towards your daily goal. You have free time in your schedule at [slot_start_time], so leave your PC and take a refreshing walk!",afternoon,+,-,,-,-,-,,daily until daily goal is achieved 5 times,11,39,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar + GPS afternoon reference,,afternoon,+,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,1,"parameters [location_type], [location_name], [location_address], [slot_start_time], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], let's pick up coffee from [location_Name] at [location_address]. You'll feel more vivid and achieve your daily goal",afternoon,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,16,Key: Location_Type_Cafe_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Clear,"Random versions:
+1)[first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's a perfect afternoon to pick up coffee from [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,1,Key: Location_Type_Cafe_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Clouds,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's nice outside, so take a walk to pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,2,Key: Location_Type_Cafe_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Drizzle,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so grab an umbrella and pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,3,Key: Location_Type_Cafe_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Rain,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,4,Key: Location_Type_Cafe_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Snow,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Dress warm and pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,5,Key: Location_Type_Cafe_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Atmosphere,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for a walk to pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,6,Key: Location_Type_Cafe_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Café + Additional,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside, so go pick up coffee from [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,7,Location_Type_Cafe_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so let's go for a walk at [location_Name] at [location_address] and achieve your daily goal!",afternoon,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,8,Key: Location_Type_Park_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Clear,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. The sun is shining and it's perfect timing to go for a walk at [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,9,Key: Location_Type_Park_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Clouds,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so go for a walk at [location_Name] at [location_address]
+",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,10,Key: Location_Type_Park_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Drizzle,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Grab an umbrella and go for a walk at [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,11,Key: Location_Type_Park_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Rain,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Grab an umbrella and go for a walk at [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,12,Key: Location_Type_Park_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Snow,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Dress warm and go for a walk at [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,13,Key: Location_Type_Park_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Atmosphere,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for a walk at [location_Name] at [location_address] ",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,14,Key: Location_Type_Park_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS afternoon - Park + Additional,"Random versions:
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside to go for a walk at [location_Name] at [location_address]",afternoon,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,15,Location_Type_Park_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon,,afternoon,-,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,2,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café ,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left, so grab a coffee from [location_Name] at [location_address] and complete your daily goal!",afternoon,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,32,Key: Location_Type_Cafe
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Clear,"Random versions:
+1)Good afternoon [first_name], the sun is shining and it's perfect timing to pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,17,Key: Location_Type_Cafe_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Clouds,"Random versions:
+1)Good afternoon [first_name], go to pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,18,Key: Location_Type_Cafe_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Drizzle,"Random versions:
+1)Good afternoon [first_name], grab an umbrella and pick up coffee from [location_Name] at [location_address] to complete your [[X]] min of activity ",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,19,Key: Location_Type_Cafe_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Rain,"Random versions:
+1)Good afternoon [first_name], it might be raining outside, so take an umbrella and pick up coffee from [location_Name] at [location_address] to complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,20,Key: Location_Type_Cafe_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Snow,"Random versions:
+1)Good afternoon [first_name], it's cold outside so dress warm and pick up coffee from [location_Name] at [location_address] to complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,21,Key: Location_Type_Cafe_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Atmosphere,"Random versions:
+1)Good afternoon [first_name], go for a walk to pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity
+",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,22,Key: Location_Type_Cafe_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Café + Additional,"Random versions:
+1)Good afternoon [first_name], It's refreshing outside, so go pick up coffee from [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,23,Location_Type_Cafe_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left. Why don't you go for a walk at [location_Name] at [location_address]?",afternoon,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,24,Key: Location_Type_Park
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Clear,"Random versions:
+1)The sun is shining [first_name], it's perfect timing to go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity
+",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,25,Key: Location_Type_Park_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Clouds,"Random versions:
+1)Good afternoon [first_name], let's go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,26,Key: Location_Type_Park_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Drizzle,"Random versions:
+1)Good afternoon [first_name], take an umbrella and go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,27,Key: Location_Type_Park_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Rain,"Random versions:
+1)It might be raining outside [first_name], so take an umbrella and go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,28,Key: Location_Type_Park_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park+ Snow,"Random versions:
+1)Good afternoon [first_name], it's cold outside so dress warm and go for a walk at [location_Name] at [location_address] to complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,29,Key: Location_Type_Park_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Atmosphere,"Random versions:
+1)Good afternoon [first_name], go for a walk to [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,30,Key: Location_Type_Park_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS afternoon - Park + Additional,"Random versions:
+1)Good afternoon [first_name], It's refreshing outside, so go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",afternoon,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,31,Location_Type_Park_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS indoor afternoon,,afternoon,+,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,3,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS home indoor afternoon,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. The weather is unsuitable for outdoor activity, but you can perform it indoors as well!",afternoon,+,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,33,Key: Location_Type_Home_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor afternoon,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. Take a colleague, go for a walk around your workplace and reach your goal!",afternoon,+,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,34,Key: Location_Type_Work_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor outdoor afternoon + shopping mall,"Random versions:
+1)Hi [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], If the weather is unsuitable for outdoor activity, you can drive to [location_Name] at [location_address] and walk there",weekday - afternoon,+,+,,-,-,Work,+,daily until daily goal is achieved 5 times,11,35,"Key: Location_Type_Home_Indoor_Outdoor_locations_Calendar
+
+Shopping Mall/department_store - not more than 15 min drive from home"
+Daily notifications group (Client side),Your goal today is X minutes + GPS indoor afternoon,,afternoon,-,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,4,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS home indoor afternoon,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left. If the weather is unsuitable for outdoor activity you can perform it indoors in order to reach your goal!",afternoon,-,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,36,Key: Location_Type_Home_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor afternoon,"Random versions: 
+1)Good afternoon [first_name], you have [[X]] min of activity left. If the weather is unsuitable for outdoor activity, take a colleague, go for a walk around your workplace and reach your goal!",afternoon,-,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,37,Key: Location_Type_Work_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor outdoor afternoon + shopping mall,"Random versions:
+1)Good afternoon [first_name], if the weather is unsuitable for outdoor activity and if possible, you can drive to [location_Name] at [location_address] and complete your [[X]] min of activity",weekday - afternoon,-,+,,-,-,Work,+,daily until daily goal is achieved 5 times,11,38,Key: Location_Type_Work_Indoor_Outdoor
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal evening reference,,evening,+/-,-,,,,,,daily until daily goal is achieved 5 times,11,5,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal evening reference,"Random versions:
+1)Good evening [first_name], [[X]] min remain towards your daily goal. Go for a walk, and take a friend along! ",evening,-,-,,-,-,-,,daily until daily goal is achieved 5 times,11,38,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar evening reference,"Random versions: 
+1)Good evening [first_name], [[X]] min remain toward your daily goal. If you're free at [slot_start_time], you could use that time for exercise and reduce your risk for getting diabetes",evening,+,-,,-,-,-,,daily until daily goal is achieved 5 times,11,37,
+Daily notifications group (Client side),Patient has X minutes left to meet the Daily goal + Calendar + GPS evening reference,,evening,+,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,1,"parameters [location_type], [location_name], [location_address], [slot_start_time], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], let's pick up sugarless tea from [location_Name] at [location_address] and do some healthy exercise ",evening,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,16,Key: Location_Type_Cafe_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Clear,"Random versions:
+1)[first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's a nice evening and perfect timing to pick up sugarless tea from [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,1,Key: Location_Type_Cafe_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Clouds,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so go pick up a warm drink from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,2,Key: Location_Type_Cafe_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Drizzle,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Gran an umbrella and pick up sugarless tea from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,3,Key: Location_Type_Cafe_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Rain,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Take an umbrella and pick up sugarless tea from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,4,Key: Location_Type_Cafe_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Snow,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Dress warm and pick up sugarless tea from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,5,Key: Location_Type_Cafe_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Atmosphere,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for a walk to pick up sugarless tea from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,6,Key: Location_Type_Cafe_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Café + Additional,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside, so go pick up sugarless tea from [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,7,Location_Type_Cafe_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so let's go for a walk at [location_Name] at [location_address]. You'll feel great!",evening,+,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,8,Key: Location_Type_Park_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Clear,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's a nice evening to go for a walk at [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,9,Key: Location_Type_Park_Calendar_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Clouds,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time], so go for a walk at [location_Name] at [location_address]
+",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,10,Key: Location_Type_Park_Calendar_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Drizzle,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Grab an umbrella and go for a walk at [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,11,Key: Location_Type_Park_Calendar_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Rain,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,12,Key: Location_Type_Park_Calendar_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Snow,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Dress warm and go for a walk at [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,13,Key: Location_Type_Park_Calendar_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Atmosphere,"Random versions:
+1)Hello [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. Go for an evening walk at [location_Name] at [location_address] ",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,14,Key: Location_Type_Park_Calendar_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS evening - Park + Additional,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time]. It's refreshing outside, so go for a walk at [location_Name] at [location_address]",evening,+,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,15,Location_Type_Park_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening,,evening,-,+,,+,-,+,+/-,daily until daily goal is achieved 5 times,11,2,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café ,"Random versions: 
+1)[first_name], you have [[X]] min of activity left, so go for an evening walk and grab a sugarless tea from [location_Name] at [location_address] ",evening,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,32,Key: Location_Type_Cafe
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Clear,"Random versions:
+1)Good evening [first_name], It's a nice evening and it's perfect timing to pick up a warm drink from [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,17,Key: Location_Type_Cafe_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Clouds,"Random versions:
+1)Good evening [first_name], so go pick up sugarless tea from [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,18,Key: Location_Type_Cafe_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Drizzle,"Random versions:
+1)Good evening [first_name], take an umbrella and pick up sugarless tea from [location_Name] at [location_address] to complete your [[X]] min of activity ",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,19,Key: Location_Type_Cafe_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Rain,"Random versions:
+1)Good evening [first_name], it might be raining outside, so take an umbrella and pick up sugarless tea from [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,20,Key: Location_Type_Cafe_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Snow,"Random versions:
+1)Good evening [first_name], dress warm and pick up sugarless tea from [location_Name] at [location_address] to complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,21,Key: Location_Type_Cafe_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Atmosphere,"Random versions:
+1)Good evening [first_name], go for a walk to pick up sugarless tea from [location_Name] at [location_address] and complete your [[X]] min of activity
+",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,22,Key: Location_Type_Cafe_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Café + Additional,"Random versions:
+1)Good evening [first_name], It's refreshing outside, so go pick up a warm drink from [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,23,Location_Type_Cafe_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park,"Random versions: 
+1)Good evening [first_name], you have [[X]] min of activity left. Why don't you go for a walk at [location_Name] at [location_address]?",evening,-,+,,+,-,+,-,daily until daily goal is achieved 5 times,11,24,Key: Location_Type_Park
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Clear,"Random versions:
+1)[first_name], It's a nice evening to go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,25,Key: Location_Type_Park_Weather_Clear
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Clouds,"Random versions:
+1)Good evening [first_name], why don't you go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity?",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,26,Key: Location_Type_Park_Weather_Clouds
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Drizzle,"Random versions:
+1)Good evening [first_name], take an umbrella and go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,27,Key: Location_Type_Park_Weather_Drizzle
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Rain,"Random versions:
+1)Good evening [first_name], it might be raining outside, so take an umbrella and go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,28,Key: Location_Type_Park_Weather_Rain
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park+ Snow,"Random versions:
+1)Good evening [first_name], dress warm and go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,29,Key: Location_Type_Park_Weather_Snow
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Atmosphere,"Random versions:
+1)Good evening [first_name], let's go for a walk to [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,30,Key: Location_Type_Park_Weather_Atmosphere
+Daily notifications group (Client side),Your goal today is X minutes + GPS evening - Park + Additional,"Random versions:
+1)Good evening [first_name], It's refreshing outside, so go for a walk at [location_Name] at [location_address] and complete your [[X]] min of activity",evening,-,+,,+,-,+,+,daily until daily goal is achieved 5 times,11,31,Location_Type_Park_Calendar_Weather_Additional
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS indoor evening,,evening,+,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,3,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS home indoor evening,"Random versions: 
+1)[first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. You can perform your activity indoors this evening and reach your goal!",evening,+,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,33,Key: Location_Type_Home_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor evening,"Random versions: 
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time in your schedule at [slot_start_time]. Take a colleague, go for a walk around your workplace and reach your goal!",evening,+,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,34,Key: Location_Type_Work_Indoor_Calendar
+Daily notifications group (Client side),Your goal today is X minutes + Calendar + GPS work indoor outdoor evening + shopping mall,"Random versions:
+1)Good evening [first_name], you have [[X]] min of activity left and you've got free time at [slot_start_time] to drive to [location_Name] at [location_address] and complete your daily goal there",weekday - evening,+,+,,-,-,Work,+,daily until daily goal is achieved 5 times,11,35,"Key: Location_Type_Home_Indoor_Outdoor_locations_Calendar
+
+Shopping Mall/department_store - not more than 15 min drive from home"
+Daily notifications group (Client side),Your goal today is X minutes + GPS indoor evening,,evening,-,+,,-,+/-,+,+,daily until daily goal is achieved 5 times,11,4,"parameters [location_type], [location_name], [location_address], [weather_description]"
+Daily notifications group (Client side),Your goal today is X minutes + GPS home indoor evening,"Random versions: 
+1)Good evening [first_name], you have [[X]] min of activity left. If the weather is unsuitable for outdoor activity you can perform it indoors in order to reach your goal!",evening,-,+,,-,+,Home,+,daily until daily goal is achieved 5 times,11,35,Key: Location_Type_Home_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor evening,"Random versions: 
+1)Good evening [first_name], you have [[X]] min of activity left. If the weather is unsuitable for outdoor activity, take a colleague and go for a walk around your workplace and reach your goal!",evening,-,+,,-,+,Work,+,daily until daily goal is achieved 5 times,11,36,Key: Location_Type_Work_Indoor
+Daily notifications group (Client side),Your goal today is X minutes + GPS work indoor outdoor evening + shopping mall,"Random versions:
+1)Good evening [first_name], if the weather is unsuitable for outdoor activity and if possible, you can drive to [location_Name] at [location_address] and complete your [[X]] min of activity",weekday - evening,-,+,,-,-,Work,+,daily until daily goal is achieved 5 times,11,35,"Key: Location_Type_Home_Indoor_Outdoor_locations_Calendar
+
+Shopping Mall/department_store - not more than 15 min drive from home"
